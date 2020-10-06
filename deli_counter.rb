@@ -1,5 +1,21 @@
 # Write your code here.
 
+$counter = 0
+
+def take_a_number(katz_deli)
+  $counter += 1
+  katz_deli.push($counter)
+  puts "Welcome, your ticket number is #{$counter}"
+end
+
+
+
+
+
+
+
+
+
 def line(katz_deli)
   if katz_deli.length === 0 
     puts "The line is currently empty."
